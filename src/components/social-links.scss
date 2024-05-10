@@ -11,5 +11,9 @@
     font-weight: 500;
     color: #fff;
     text-decoration: none;
+    &:hover {
+      background-color: var(--green);
+      color: var(--black);
+    }
   }
 }
