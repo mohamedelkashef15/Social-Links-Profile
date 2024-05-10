@@ -1,0 +1,15 @@
+@import "../global.scss";
+
+.links {
+  margin-top: 35px;
+  a {
+    display: block;
+    margin-top: 15px;
+    padding: 12px 0;
+    background-color: var(--gray);
+    border-radius: 10px;
+    font-weight: 500;
+    color: #fff;
+    text-decoration: none;
+  }
+}

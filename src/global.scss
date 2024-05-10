@@ -7,6 +7,51 @@
   --black: hsl(0, 0%, 8%);
 }
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
   font-size: 14px;
+  font-family: "Inter", sans-serif;
+  background-color: var(--black);
+}
+
+main {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#social-card {
+  background-color: var(--dark-gray);
+  padding: 2rem 2.5rem;
+  border-radius: 10px;
+  text-align: center;
+  color: #fff;
+  min-width: 400px;
+  img {
+    border-radius: 50%;
+    width: 100px;
+  }
+
+  h1 {
+    margin: 20px 0 5px;
+    font-size: 30px;
+    font-weight: 600;
+  }
+
+  h2 {
+    font-size: 18px;
+    font-weight: 600;
+    color: var(--green);
+  }
+
+  p.title {
+    margin-top: 20px;
+  }
 }
